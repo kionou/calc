@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styyle.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <div class="contenaire">
+        <div class="ecran">
+            <input type="text" class="ecran1" placeholder="0" disabled>
+        </div>
+        <div class="science">
+         
+            <button  class="btn">X^Y</button>
+            <button class="btn">X^2</button>
+            <button class="btn">|X|</button>
+            <button class="btn">Ln</button>
+            <button class="btn">Log</button>
+            <button class="btn">Sin</button>
+            <button class="btn">Cos</button>
+            <button class="btn">Tan</button>
+            <button class="btn">Exp</button>
+            <button class="btn">√x</button>
+            <button class="btn">On</button>
+            <button class="btn">2nd</button>
+         
+        </div>
+        <div class="calcul">
+            
+                <button class="boutton" onclick="affiche('1')">1</button>
+                <button class="boutton" onclick="affiche('2')">2</button>
+                <button class="boutton" onclick="affiche('3')">3</button>
+                <button class="boutton"  id="boutton2">DEL</button>
+                <button class="boutton"  id="boutton2">AC</button>
+                <button class="boutton" onclick="affiche('4')">4</button>
+                <button class="boutton" onclick="affiche('5')">5</button>
+                <button class="boutton" onclick="affiche('6')">6</button>
+                <button class="boutton"  id="boutton2" onclick="affiche('*')">x</button>
+                <button class="boutton"  id="boutton2" onclick="affiche('/')">/</button>
+                <button class="boutton" onclick="affiche('7')">7</button>
+                <button class="boutton" onclick="affiche('8')">8</button>
+
+                <button class="boutton" onclick="affiche('9')">9</button>
+                <button class="boutton"  id="boutton2" onclick="affiche('+')">+</button>
+                <button class="boutton"  id="boutton2" onclick="affiche('-')">-</button>
+                <button class="boutton" onclick="affiche('0')">0</button>
+                <button class="boutton" onclick="affiche('.')">.</button>
+                <button class="boutton"  id="boutton" onclick="affiche('(')">(</button>
+                <button class="boutton"  id="boutton2" onclick="affiche(')')">)</button>
+                <button class="boutton" id="boutton2" onclick="resultat('')">=</button>
+        </div>
+
+    </div>
+    <script src="./calcul.js"></script>
+</body>
+</html>

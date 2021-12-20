@@ -1,0 +1,91 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.contenaire{
+    width: 440px;
+    height: 600px;
+    padding:0px;
+    margin: 100px;
+    background-color: aquamarine;
+    border-radius: 10px;
+
+}
+
+.ecran{
+
+width: 390px;
+height: 100px;
+padding: 17px;
+margin: 20px 0;
+
+
+}
+.ecran1{
+    width: 380px;
+    height: 80px;
+    margin: 10px -2px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: boldprice;
+    font-weight: 40px;
+    font-size: 40px;
+    border-color: #444;
+    background-color: rgb(214, 255, 255);
+}
+.science{
+
+width: 390px;
+height: 100px;
+border-radius: 10px;
+box-shadow: 0 0 10px 4px  inset;
+background: linear-gradient(rgb(53, 161, 89) 0%, #d3d4db 100%) ;
+margin-bottom: 20px;
+}
+.calcul{
+border: 2px solid;
+width: 390px;
+height: 290px;
+margin-top: 10px;
+display: flexbox;
+border-radius: 10px;
+box-shadow: 0 0 10px 4px  inset;
+background: linear-gradient(rgb(212, 212, 219) 0%, #b7b8c3 100%);
+}
+.btn{
+  padding: 10px 15px;
+  margin-top: 5px ;
+  margin-left: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  float: inline-end;
+  color: white;
+  background-color: black;
+  cursor: default;
+  box-shadow: 0 2px 6px #444 ;
+  border-radius: 10px ;
+  border-color: aqua;
+  
+}
+.boutton{
+     width: 65px;
+     height: 60px;
+     margin: 5px 5px 5px 0;
+     font-size: 20px;
+     font-weight: bold;
+     float: inline-end;
+     color: white;
+     background-color: black;
+     cursor: default;
+     box-shadow: 0 2px 6px #444 ;
+     border-radius: 10px ;
+     border-color: aqua;
+     display: flexbox;
+     
+
+}
+#boutton2{
+   margin: 6px;  
+     
+}
+
